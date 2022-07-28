@@ -1,6 +1,7 @@
-const totalBasketballScore = (ft, mr, tp) => 
-    typeof ft == 'number' && typeof mr == 'number' && typeof tp == 'number' ? 
-    ((ft)+(mr*2)+(tp*3))  : 'You must enter numbers only!';
+const totalBasketballScore = (freeThrows, midRange, threePointers) => 
+    typeof freeThrows == 'number' && typeof midRange == 'number' && typeof threePointers == 'number' ? 
+    ((freeThrows)+(midRange*2)+(threePointers*3))  : 'You must enter numbers only!';
+
 
 
 const itemPrice = item => {
